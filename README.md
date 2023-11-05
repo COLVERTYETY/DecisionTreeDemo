@@ -21,4 +21,4 @@ Interactive Decision Tree Visualizer is a dynamic, visual demo for understanding
 - **Set Minimum Splits**: Use the "Minimum Splits" slider to determine the minimum number of splits for the decision tree.
 - **Add Jitter**: Use the "Jitter" slider to add random motion to the points, which can simulate real-world data variability.
 
-# [try it out !!]()
+# [try it out !!](https://colvertyety.github.io/DecisionTreeDemo/)
