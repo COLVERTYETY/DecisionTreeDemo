@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <h1> Decision Tree </h1>
+        <p id="description"> This is an Interactive Demo of a Decision Tree spliting 2D data.</p>
+        <div id="usage">
+            <p> left Click on the canvas to add points. </p>
+            <p> left Click on a point to change its class.</p>
+            <p> right Click on a point to delete it.</p>
+        </div>
+        <h2 id="accuracy"> accuracy is ???</h1>
+        <div class="menu">
+            <div>
+                <input type="range" min="1" max="10" value="2" class="slider" id="split_"> minimun amount of points per node </input>
+            </div>
+            <div>
+                <input type="range" min="1" max="10" value="2" class="slider" id="depth">  maximum tree depth </input>
+            </div>
+            <div>
+                <input type="range" min="0" max="10" value="0" class="slider" id="jitter">  jitter speed </input>
+            </div>
+        </div>
+        <script src="sketch.js"></script>
+    </body>
+</html>
+
